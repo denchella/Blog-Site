@@ -3,6 +3,27 @@ header{
 	color: white;
 	text-align: center;
 }
+
+.reflection_content {
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+	align-items: flex-start;
+}
+
+
+.github_paragraph, .Accessibility_paragraph {
+	width: 400px;
+}
+
+@media (max-width: 950px)  {
+ .reflection_content {
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+}
+}
+
 h1 {
   font-family: politica, sans-serif;
   font-weight: 400;
@@ -12,6 +33,7 @@ h1 {
   padding-bottom: 50px;
   text-align: center;
 }
+
 h2 {
   font-family: politica, sans-serif;
   font-weight: 400;
@@ -20,13 +42,6 @@ h2 {
   padding-left: 20px;
   padding-top: 30px;
   padding-bottom: 5px;
-}
-.para_right {
-  float: right;
-  padding-right: 400px;
-  width: 400px;
-
-
 }
 
 a {
